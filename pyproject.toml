@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sr"
+version = "0.1.0"
+description = "This package is for speech recognition"
+authors = ["Mohammed Bakheet <m.yousify@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyaudio = "^0.2.13"
+textblob = "^0.17.1"
+logging = "^0.4.9.6"
+speechrecognition = "^3.10.0"
+requests = "^2.31.0"
+pydub = "^0.25.1"
+datasets = "^2.13.1"
+transformers = "^4.30.2"
+torchaudio = "^2.0.2"
+jiwer = "^3.0.2"
+tnkeeh = "^0.0.9"
+soundfile = "^0.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
